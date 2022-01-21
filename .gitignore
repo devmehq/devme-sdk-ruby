@@ -195,3 +195,4 @@ package-lock.json
 /tmp/
 test.rb
 vendor/
+devme-sdk-ruby*.gem
