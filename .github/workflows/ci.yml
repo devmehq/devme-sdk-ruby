@@ -28,8 +28,6 @@ jobs:
           fetch-depth: 30
           persist-credentials: false
 
-      - uses: ruby/setup-ruby@180e1d1f1c5eadbfbab3dab6fb79ab0c07e3cecc
-        with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
+      - uses: ruby/setup-ruby@v1
       - run: bundle install
       - run: bundle exec rake
