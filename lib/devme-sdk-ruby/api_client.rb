@@ -137,7 +137,7 @@ module DevmeSdk
     def build_request_body(header_params, form_params, body)
       # http form
       if header_params['Content-Type'] == 'application/x-www-form-urlencoded' ||
-          header_params['Content-Type'] == 'multipart/form-data'
+        header_params['Content-Type'] == 'multipart/form-data'
         data = {}
         form_params.each do |key, value|
           case value
@@ -307,7 +307,7 @@ module DevmeSdk
         next unless auth_setting
         case auth_setting[:in]
         when 'header' then header_params[auth_setting[:key]] = auth_setting[:value]
-        when 'query'  then query_params[auth_setting[:key]] = auth_setting[:value]
+        when 'query' then query_params[auth_setting[:key]] = auth_setting[:value]
         else fail ArgumentError, 'Authentication token must be in `query` or `header`'
         end
       end

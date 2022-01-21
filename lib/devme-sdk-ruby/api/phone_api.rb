@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Get phone validation details
     # @param phone [String] phone - phone number to validate
     # @param [Hash] opts the optional parameters

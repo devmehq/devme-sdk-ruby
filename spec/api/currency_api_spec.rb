@@ -45,7 +45,7 @@ describe 'CurrencyApi' do
   describe 'v1_convert_currency test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
-      result = @api_instance.v1_convert_currency(from='USD', to='EUR', opts= {amount:10})
+      result = @api_instance.v1_convert_currency(from = 'USD', to = 'EUR', opts = { amount: 10 })
       expect(result).to be_instance_of(DevmeSdk::ConvertCurrencyOut)
       expect(result.to).to eq('EUR')
       expect(result.from).to eq('USD')

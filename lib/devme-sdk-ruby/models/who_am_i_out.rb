@@ -59,7 +59,7 @@ module DevmeSdk
     # List of attributes with nullable: true
     def self.openapi_nullable
       Set.new([
-      ])
+              ])
     end
 
     # Initializes the object
@@ -120,12 +120,12 @@ module DevmeSdk
     def ==(o)
       return true if self.equal?(o)
       self.class == o.class &&
-          user_id == o.user_id &&
-          email == o.email &&
-          username == o.username &&
-          req_ip_address == o.req_ip_address &&
-          req_ip_country == o.req_ip_country &&
-          req_user_agent == o.req_user_agent
+        user_id == o.user_id &&
+        email == o.email &&
+        username == o.username &&
+        req_ip_address == o.req_ip_address &&
+        req_ip_country == o.req_ip_country &&
+        req_user_agent == o.req_user_agent
     end
 
     # @see the `==` method
@@ -205,7 +205,8 @@ module DevmeSdk
             hash[_deserialize(k_type, k)] = _deserialize(v_type, v)
           end
         end
-      else # model
+      else
+        # model
         # models (e.g. Pet) or oneOf
         klass = DevmeSdk.const_get(type)
         klass.respond_to?(:openapi_one_of) ? klass.build(value) : klass.build_from_hash(value)

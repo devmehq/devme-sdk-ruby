@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Get email validation details
     # @param email [String] email - email address
     # @param [Hash] opts the optional parameters

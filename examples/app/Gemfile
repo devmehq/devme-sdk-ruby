@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem "colorize", "~> 0.8.1"
+gem "devme-sdk-ruby", "~> 1.0"
+gem "rainbow", "~> 3.1"
+

@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Convert currency to another currency
     # @param from [String] from - currency to convert from
     # @param to [String] to - currency to convert to

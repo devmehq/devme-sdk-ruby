@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Get IP GEO Location and ISP details
     # @param [Hash] opts the optional parameters
     # @option opts [String] :ip ip - IP Address

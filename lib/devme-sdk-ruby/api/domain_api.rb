@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Get domain WHOIS details and registration information
     # @param [Hash] opts the optional parameters
     # @option opts [String] :domain domain - Domain name to get details for

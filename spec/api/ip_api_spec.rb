@@ -43,7 +43,7 @@ describe 'IPApi' do
   describe 'v1_get_ip_details test' do
     it 'should work' do
       # assertion here. ref: https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
-      result = @api_instance.v1_get_ip_details(opts={ip:'52.45.23.11'})
+      result = @api_instance.v1_get_ip_details(opts = { ip: '52.45.23.11' })
       expect(result.ip).to eq('52.45.23.11')
       expect(result.country_code).to eq('US')
       expect(result.aso).to eq('AMAZON-AES')

@@ -19,6 +19,7 @@ module DevmeSdk
     def initialize(api_client = ApiClient.default)
       @api_client = api_client
     end
+
     # Get country facts and information
     # @param code [String] code - country code ISO 4217
     # @param [Hash] opts the optional parameters
