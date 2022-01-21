@@ -1,7 +1,7 @@
 # DEV.ME SDK for Ruby
 [![Build Status](https://github.com/devmehq/devme-sdk-ruby/actions/workflows/ci.yml/badge.svg)](https://github.com/devmehq/devme-sdk-ruby/actions/workflows/ci.yml)
-[![Gem Version](https://img.shields.io/gem/v/devme-sdk-ruby.svg)](https://rubygems.org/gems/devme-sdk-ruby)
-[![Downloads](https://img.shields.io/gem/dm/devme-sdk-ruby.svg)](https://rubygems.org/gems/devme-sdk-ruby)
+[![Gem Version](https://img.shields.io/gem/v/devme-sdk-ruby)](https://rubygems.org/gems/devme-sdk-ruby)
+[![Downloads](https://img.shields.io/gem/dt/devme-sdk-ruby)](https://rubygems.org/gems/devme-sdk-ruby)
 
 DEV.ME SDK for Ruby
 
