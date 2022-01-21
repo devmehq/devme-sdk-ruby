@@ -2,10 +2,10 @@ name: ci
 on:
   push:
     paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'composer.json'
-      - 'composer.lock'
+      - 'lib/**'
+      - 'spec/**'
+      - 'Gemfile.lock'
+      - 'Gemfile'
     branches:
       - '*'
 

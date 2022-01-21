@@ -46,6 +46,7 @@ describe 'IPApi' do
       result = @api_instance.v1_get_ip_details(opts={ip:'52.45.23.11'})
       expect(result.ip).to eq('52.45.23.11')
       expect(result.country_code).to eq('US')
+      expect(result.aso).to eq('AMAZON-AES')
     end
   end
 
