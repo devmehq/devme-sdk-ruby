@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["DEV.ME Team"]
   s.email       = ["support@dev.me"]
-
+  s.homepage    = "https://github.com/devmehq/devme-sdk-ruby"
   s.summary     = "DEV.ME SDK for Ruby"
   s.description = "DEV.ME API Documentation [Currency Conversion and Exchange Rates API](https://dev.me/products/currency) - [IP2Location, IP Country, IP Information API](https://dev.me/products/ip) -  [Email Validation, Mailbox Verification](https://dev.me/products/email) - [Phone Number Validation](https://dev.me/products/phone). You can learn more at [dev.me](https://dev.me). For this example you can use api key `demo-key` to test the APIs"
   s.license     = "MIT"

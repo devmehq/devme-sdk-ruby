@@ -1,6 +1,6 @@
 # Change Log
 
-## v1.1.0
+## v1.0.0
 - Initial stable release
 - Adding tests
 - Adding documentation
