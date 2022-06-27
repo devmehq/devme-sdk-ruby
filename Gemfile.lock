@@ -26,7 +26,7 @@ GEM
       pry (~> 0.13.0)
     rainbow (3.1.1)
     rake (13.0.6)
-    regexp_parser (2.4.0)
+    regexp_parser (2.5.0)
     rexml (3.2.5)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -41,7 +41,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
-    rubocop (1.30.0)
+    rubocop (1.31.0)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -55,7 +55,7 @@ GEM
     ruby-progressbar (1.11.0)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    unicode-display_width (2.1.0)
+    unicode-display_width (2.2.0)
 
 PLATFORMS
   ruby
@@ -65,7 +65,7 @@ DEPENDENCIES
   pry-byebug
   rake (~> 13.0.1)
   rspec (~> 3.6, >= 3.6.0)
-  rubocop (~> 1.30.0)
+  rubocop (~> 1.31.0)
 
 BUNDLED WITH
    1.17.2
